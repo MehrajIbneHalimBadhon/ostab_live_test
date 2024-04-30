@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ostab_live_test/const/app_colors.dart';
 import 'package:ostab_live_test/widget/custom_text.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           'Profile',
-          style: TextStyle(color: Colors.black, fontWeight: FontWeight.w600),
+          style: TextStyle(color: AppColors.vampireblackColor, fontWeight: FontWeight.w600),
         ),
         centerTitle: true,
       ),
@@ -46,7 +47,7 @@ class HomePage extends StatelessWidget {
                   backgroundImage: AssetImage('assets/images/mehraj.jpeg'),
                 ),
               ),
-              customText('Mehraj Ibne Halim', 20, Colors.black),
+              customText('Mehraj Ibne Halim', 20, AppColors.vampireblackColor),
               SizedBox(height: 8),
               customText('mehrajibnehalim5313@gmail.com', 16, Colors.black45),
               SizedBox(height: 16),
@@ -55,7 +56,7 @@ class HomePage extends StatelessWidget {
                   customText(
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
                       15,
-                      Colors.black)
+                      AppColors.vampireblackColor)
                 ],
               )
             ],
